@@ -6,13 +6,15 @@ cd Paper && \
 # git checkout ver/1.12.2 && \
 echo "Updating BuildData..." && \
 cd work/BuildData && \
-git checkout 8eaf2804afba334ca73c3e190cf092064c631692 && \
+git checkout 351106b6336fc52f6acf94aabd34ac54fc772432 && \
 echo "Updating Bukkit..." && \
 cd ../Bukkit && \
-git checkout 987016eada9da174c27b90126759a73eb21bdf76 && \
+git checkout 23c1a2ba03b96b52f69a93e07706f9ccc33fd683 && \
 echo "Updating CraftBukkit..." && \
 cd ../CraftBukkit && \
-git checkout version/1.13.2 && \
+git checkout 162bda93ff76fe96a6138a14176807f21a6ddef4 && \
+cd ../Spigot && \
+git checkout fe3ab0d858960183da1da1b1378c363c3da94bbb && \
 # echo "Updating Paperclip..." && \
 # cd ../Paperclip && \
 # git checkout ver/1.12.2 && \
